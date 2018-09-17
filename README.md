@@ -12,3 +12,5 @@
 4. [Abstract Factory](https://github.com/BumwooPark/go-design-pattern/tree/master/abstract_factory)
 : factory method는 `Factory Method`보다 좀더 큰 범주에 속함  `Factory Method` 가 객체를 반환한다면 
 `Abstract Factory`는 `factory` 자체를 반환하고 그 `factory`를 통해 객체를 받아서 처리를 한다.
+
+5. [Object Pool](https://github.com/BumwooPark/go-design-pattern/tree/master/object_pool)

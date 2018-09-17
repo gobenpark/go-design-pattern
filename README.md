@@ -14,3 +14,4 @@
 `Abstract Factory`는 `factory` 자체를 반환하고 그 `factory`를 통해 객체를 받아서 처리를 한다.
 
 5. [Object Pool](https://github.com/BumwooPark/go-design-pattern/tree/master/object_pool)
+6. [ProtoType Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/prototype)

@@ -15,3 +15,6 @@
 
 5. [Object Pool](https://github.com/BumwooPark/go-design-pattern/tree/master/object_pool)
 6. [ProtoType Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/prototype)
+
+7. [Composite Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/composite)
+: 트리구조의 객체 계층구조를 만듬  상속과 다중상속의 문제를 해결함 즉 열차를 타고 수영하는 수영선수를 만들경우 

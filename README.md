@@ -1,5 +1,8 @@
 # GO Design Patterns
 
+
+## Creational Patterns
+
 1. [SingleTon](https://github.com/BumwooPark/go-design-pattern/tree/master/singleton)
 : 글로벌하게 하나의 오브젝트에 대한 접근이 필요할 경우
 
@@ -15,6 +18,9 @@
 
 5. [Object Pool](https://github.com/BumwooPark/go-design-pattern/tree/master/object_pool)
 6. [ProtoType Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/prototype)
+
+
+## Structural Patterns
 
 7. [Composite Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/composite)
 : 트리구조의 객체 계층구조를 만듬  상속과 다중상속의 문제를 해결함 즉 열차를 타고 수영하는 수영선수를 만들경우 

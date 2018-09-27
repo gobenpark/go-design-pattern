@@ -23,4 +23,8 @@
 ## Structural Patterns
 
 7. [Composite Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/composite)
-: 트리구조의 객체 계층구조를 만듬  상속과 다중상속의 문제를 해결함 즉 열차를 타고 수영하는 수영선수를 만들경우 
+: 트리구조의 객체 계층구조를 만듬  상속과 다중상속의 문제를 해결함 즉 열차를 타고 수영하는 수영선수를 만들경우
+
+8: [Adapter Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/adapter)
+: 공개/폐쇄 원칙을 유지 하며 코드가 새로운 기능에는 개방 되어있고 수정에는 폐쇄되어있는 방식 레거시 코드를 새로운코드로 연결 하는 방식 
+대표적으로 Go 에서는 http.HandlerFunc , ServeHTTP 등을 찾아보고 HandlerFunc의 경우 함수로 interface를 구현하는 신선한 방식

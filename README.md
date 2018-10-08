@@ -22,16 +22,16 @@
 
 ## Structural Patterns
 
-7. [Composite Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/composite)
+1. [Composite Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/composite)
 : 트리구조의 객체 계층구조를 만듬  상속과 다중상속의 문제를 해결함 즉 열차를 타고 수영하는 수영선수를 만들경우
 
-8. [Adapter Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/adapter)
+2. [Adapter Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/adapter)
 : 공개/폐쇄 원칙을 유지 하며 코드가 새로운 기능에는 개방 되어있고 수정에는 폐쇄되어있는 방식 레거시 코드를 새로운코드로 연결 하는 방식 
 대표적으로 Go 에서는 http.HandlerFunc , ServeHTTP 등을 찾아보고 HandlerFunc의 경우 함수로 interface를 구현하는 신선한 방식
 두개의 호환되지 않는 
 
-9. [Bridge Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/bridge)
+3. [Bridge Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/bridge)
 : 브릿지 패턴의 목적은 자주 변경되는 구조체에 유연성을 가져오는 것 , 메서드의 입력과 출력을 알면 코드를 많이 모르는 상태에서 코드를 쉽게 수정이 가능하다
 
-10. [Proxy Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/proxy)
+4. [Proxy Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/proxy)
 : 사용자에게 권한을 부여하거나 데이터베이스에 대한 액세스 권한을 부여하는 것과 같은 중간 작업이 필요한 유형을 중심으로 프록시를 래핑하는것이 좋음 (캐시 구현)

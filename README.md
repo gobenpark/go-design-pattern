@@ -28,6 +28,7 @@
 8: [Adapter Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/adapter)
 : 공개/폐쇄 원칙을 유지 하며 코드가 새로운 기능에는 개방 되어있고 수정에는 폐쇄되어있는 방식 레거시 코드를 새로운코드로 연결 하는 방식 
 대표적으로 Go 에서는 http.HandlerFunc , ServeHTTP 등을 찾아보고 HandlerFunc의 경우 함수로 interface를 구현하는 신선한 방식
+두개의 호환되지 않는 
 
 9: [Bridge Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/bridge)
 : 브릿지 패턴의 목적은 자주 변경되는 구조체에 유연성을 가져오는 것 , 메서드의 입력과 출력을 알면 코드를 많이 모르는 상태에서 코드를 쉽게 수정이 가능하다

@@ -35,3 +35,6 @@
 
 4. [Proxy Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/proxy)
 : 사용자에게 권한을 부여하거나 데이터베이스에 대한 액세스 권한을 부여하는 것과 같은 중간 작업이 필요한 유형을 중심으로 프록시를 래핑하는것이 좋음 (캐시 구현)
+
+5. [Decorator Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/decorator)
+: 런타임시 추가적인 기능을 붙일때 주로 쓰이는 부분이 서버의 미들웨어 부분

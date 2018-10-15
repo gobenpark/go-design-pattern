@@ -38,3 +38,6 @@
 
 5. [Decorator Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/decorator)
 : 런타임시 추가적인 기능을 붙일때 주로 쓰이는 부분이 서버의 미들웨어 부분
+
+6. [Flyweight Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/flyweight)
+: 데이터를 공유하여 메모리를 절약하는 패턴으로 공통으로 사용되는 객체는 한 번만 생성되고 공유를 통해 풀(Pool)에 의해 관리, 사용된다.

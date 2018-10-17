@@ -41,3 +41,13 @@
 
 6. [Flyweight Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/flyweight)
 : 데이터를 공유하여 메모리를 절약하는 패턴으로 공통으로 사용되는 객체는 한 번만 생성되고 공유를 통해 풀(Pool)에 의해 관리, 사용된다.
+
+
+## Behavioral Patterns
+
+1. [Strategy Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/strategy)
+: 특정 기능을 구현하기 위한 몇 가지 알고리즘 제공 , 모든 유형이 동일한 기능을 다른 방식으로 실행하지만 클라이언트는 영향을 받지 않는다.
+factory 패턴과 go의 struct 임베딩 + 인터페이스 덕타이핑  
+a 구조체에 b 구조체를 임베딩 할 경우 a 에 속해있는 것처럼 b필드에 엑세스가 가능하다 이부분이 상속과 비슷 하지만 차이점이 있는데 
+b에 해당하는 함수가 필요할경우 a를 전달할 수 없다 하지만 b가 구현하는 인터페이스를 받아들이는 함수가 있다면 a를 전달 할 수 있다.
+![image](https://github.com/BumwooPark/go-design-pattern/tree/master/strategy/strategy.jpg)

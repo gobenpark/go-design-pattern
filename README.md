@@ -50,4 +50,4 @@
 factory 패턴과 go의 struct 임베딩 + 인터페이스 덕타이핑  
 a 구조체에 b 구조체를 임베딩 할 경우 a 에 속해있는 것처럼 b필드에 엑세스가 가능하다 이부분이 상속과 비슷 하지만 차이점이 있는데 
 b에 해당하는 함수가 필요할경우 a를 전달할 수 없다 하지만 b가 구현하는 인터페이스를 받아들이는 함수가 있다면 a를 전달 할 수 있다.
-![image](https://github.com/BumwooPark/go-design-pattern/tree/master/strategy/strategy.jpg)
+![image](https://github.com/BumwooPark/go-design-pattern/blob/master/strategy/strategy.jpg?raw=true)

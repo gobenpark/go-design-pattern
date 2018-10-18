@@ -51,3 +51,9 @@ factory 패턴과 go의 struct 임베딩 + 인터페이스 덕타이핑
 a 구조체에 b 구조체를 임베딩 할 경우 a 에 속해있는 것처럼 b필드에 엑세스가 가능하다 이부분이 상속과 비슷 하지만 차이점이 있는데 
 b에 해당하는 함수가 필요할경우 a를 전달할 수 없다 하지만 b가 구현하는 인터페이스를 받아들이는 함수가 있다면 a를 전달 할 수 있다.
 ![image](https://github.com/BumwooPark/go-design-pattern/blob/master/strategy/strategy.jpg?raw=true)
+
+2. [Chain Responsibility Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/chain_responsibility)
+: 각 채인은 단일책임 원칙을 준수한다, 해당 패턴은 로깅체인을 구현하는것으로 프로그램의 출력을 둘 이상의 io.Writer인터페이스에 쓰는 것이다.
+로깅을 할때 콘솔/파일/remote 서버에 남기는 기능이 있을때 3번의 함수콜을 하는것보다 체이닝을 통해서 한번에 처리하는게 더 유용하다
+behavior와 state의 처리를 런타임에 하는 것으로 FSM(Finite State Machine)을 만드는데 널리 사용이 된다.
+주의할점은 체이닝중 중간에 실패할경우에 대한 처리가 필요 

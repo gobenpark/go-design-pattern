@@ -70,3 +70,7 @@ behavior와 state의 처리를 런타임에 하는 것으로 FSM(Finite State Ma
  뒤의 알고리즘실행시 라이브러리에서 해당 인터페이스를 콜하는 방식으로 
  swift에서의 정렬시에 Equatable 프로토콜을 적용해야하는것과 golang에서의 sort 함수를 쓸때 Len/Swap/Less 가 포함 되어있는  소트 인터페이스를 
  구현하고 구현된 객체를 sort.Sort()함수로 넘겨주면 알아서 해주는것이 관건 
+ 
+5. [Memento Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/memento)
+: 객체의 상태를 저장해두었다가 복원해야 될 경우 사용  Memento는 state의 추상화 객체이고 Originator는 매멘토를 생성 및 추출 작업을 한다
+careTaker는 메멘토를 저장해두는 객체로 트랜젝션등을 사용 할 수있다.

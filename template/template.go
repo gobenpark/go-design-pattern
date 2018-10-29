@@ -98,3 +98,4 @@ fmt.Println(myList)
 sort.Sort(myList)
 fmt.Println(myList)
 
+gluster volume set galmal_vol auth.allow 192.168.1.*

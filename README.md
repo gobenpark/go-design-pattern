@@ -74,3 +74,9 @@ behavior와 state의 처리를 런타임에 하는 것으로 FSM(Finite State Ma
 5. [Memento Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/memento)
 : 객체의 상태를 저장해두었다가 복원해야 될 경우 사용  Memento는 state의 추상화 객체이고 Originator는 매멘토를 생성 및 추출 작업을 한다
 careTaker는 메멘토를 저장해두는 객체로 트랜젝션등을 사용 할 수있다.
+
+
+6. [Visitor Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/visitor)
+: 알고리즘을 객체 구조에서 분리를 시키는 디자인 패턴이다, 구조는 변하지 않고 기능만 따로 추가되거나 확장 되어야 할 경우 사용되는 패턴 
+객체의 accept 인터페이스를 적용하고 accept내부에서 visitable 인터페이스의 visit 함수에 해당 객체를 주입함으로 알고리즘을 실행 
+개방 폐쇄 원칙을 적용한 디자인패턴이다  

@@ -92,4 +92,5 @@ state 패턴을 해보는게 좋아보인다.
 1. [Barrier Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/barrier_concurrency)
 : 예로써 한서비스에서 3가지의 마이크로 서비스의 응답을 종합하여 응답을 해주어야 할 경우  3가지 모두가 완료가 되어야 리턴이 가능하다 
 이때 이패턴이 유용하게 작용할 수 있다. 즉 blocking을 하는것 모든 응답이 반환될때까지 
-![image](https://github.com/BumwooPark/go-design-pattern/blob/master/strategy/strategy.jpg?raw=true)
+
+![image](https://github.com/BumwooPark/go-design-pattern/blob/master/barrier_concurrency/image.jpg?raw=true)

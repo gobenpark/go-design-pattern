@@ -86,3 +86,10 @@ careTaker는 메멘토를 저장해두는 객체로 트랜젝션등을 사용 �
 context객체내부에 state관련 인터페이스를 저장후에 해당 state의 execute하는것으로 state를 변경한다 상태관련 중요성이 있을경우 
 state 패턴을 해보는게 좋아보인다.
 
+
+## Concurrency Patterns
+
+1. [Barrier Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/barrier_concurrency)
+: 예로써 한서비스에서 3가지의 마이크로 서비스의 응답을 종합하여 응답을 해주어야 할 경우  3가지 모두가 완료가 되어야 리턴이 가능하다 
+이때 이패턴이 유용하게 작용할 수 있다. 즉 blocking을 하는것 모든 응답이 반환될때까지 
+![image](https://github.com/BumwooPark/go-design-pattern/blob/master/strategy/strategy.jpg?raw=true)

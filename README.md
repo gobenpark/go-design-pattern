@@ -102,3 +102,6 @@ state 패턴을 해보는게 좋아보인다.
 
 3. [PipeLine Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/pipeline)
 : 채널을 사용하여 동기화가 수행이됨 
+
+4. [Worker pool Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/worker_pool)
+: 정해진 갯수의 워커를 생성해서 dispatcher에 할당을 하고  채널로써 업무를 받는다. 이때 파이프라인패턴과 연동하여 사용하면 좋다

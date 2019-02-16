@@ -14,7 +14,7 @@ func New(total int) *Pool {
 	return &p
 }
 
-func gogo() {
+func Start() {
 	p := New(4)
 
 	select {

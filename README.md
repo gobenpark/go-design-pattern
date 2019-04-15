@@ -20,6 +20,15 @@
 `Abstract Factory`는 `factory` 자체를 반환하고 그 `factory`를 통해 객체를 받아서 처리를 한다.
 
 5. [Object Pool](https://github.com/BumwooPark/go-design-pattern/tree/master/object_pool)
+:객체를 필요로 할때 풀에 요청을 하고, 반환하고 일련의 작업을 수행하는 패턴.
+많은 수의 인스턴스를 생성할때 혹은 무거운 오브젝트를 매번 인스턴스화 할때 성능 향상을 가져오기도 합니다.
+예를들어, 데이터베이스에 접속하는 여러 객체를 만들때 매번 새로 생성하는 것보단,
+미리 생성된 풀에서 객체를 반환받아오는 것이 더 이득 입니다.
+이런 문제로 JDBC 에서는 JDBC Connection Pool 을 제공하고 있으며 Thread Pool 역시 오브젝트 풀이 기본 원리 입니다.
+
+
+출처: https://creatordev.tistory.com/73 [Creator Developer]
+
 6. [ProtoType Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/prototype)
 
 

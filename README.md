@@ -11,6 +11,9 @@
 인터페이스의 변경이 있다면 모든 빌더에 영향을 미치고 메소드가 추가 될경우 어색할수 있기에 해당 알고리즘이 안정될 것을 확신하지 못한다면 이패턴을 피하자
 
 3. [Factory Method](https://github.com/BumwooPark/go-design-pattern/tree/master/factory_method)
+:객체 생성 처리를 서브 클래스로 분리 해 처리하도록 캡슐화하는 패턴 
+즉, 객체의 생성 코드를 별도의 클래스/메서드로 분리함으로써 객체 생성의 변화에 대비하는 데 유용하다.
+
 
 4. [Abstract Factory](https://github.com/BumwooPark/go-design-pattern/tree/master/abstract_factory)
 : factory method는 `Factory Method`보다 좀더 큰 범주에 속함  `Factory Method` 가 객체를 반환한다면 

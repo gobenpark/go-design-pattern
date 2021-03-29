@@ -15,12 +15,12 @@ func main() {
 					if ok == false {
 						return
 					}
+					// select로 감싼이유는 valStream에 대한 수신하는 부분이 없는경우 block 이 되기때문
 					select {
 					case valStream <- v:
 					case <-done:
 					}
 				}
-			}
 		}()
 		return valStream
 	}

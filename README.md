@@ -117,3 +117,10 @@ state 패턴을 해보는게 좋아보인다.
 
 4. [Worker pool Pattern](https://github.com/BumwooPark/go-design-pattern/tree/master/worker_pool)
 : 정해진 갯수의 워커를 생성해서 dispatcher에 할당을 하고  채널로써 업무를 받는다. 이때 파이프라인패턴과 연동하여 사용하면 좋다
+
+   
+## Concurrency Channel Patterns
+
+1. [or-done channel]()
+
+2. [tee channel]()
